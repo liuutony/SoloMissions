@@ -27,7 +27,7 @@ local function GetMissionScript()
     return nil
 end
 
-local TARGET_BUILD <const> = "3570.0"
+local TARGET_BUILD <const> = "3586.0"
 local CURRENT_BUILD <const> = GetBuildNumber()
 local FMMC_LAUNCHER <const> = "fmmc_launcher"
 
@@ -172,3 +172,4 @@ event.register_handler(menu_event.ScriptsReloaded, function()
         casinoHeistPatch:disable_patch()
     end
 end)
+
